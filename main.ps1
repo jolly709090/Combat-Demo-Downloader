@@ -1,4 +1,6 @@
-﻿. .\ConvertFrom-Gzip.ps1
+﻿'Powershell version: ' + $PSVersionTable.PSVersion.Major
+
+. .\ConvertFrom-Gzip.ps1
 
 $uri = 'http://cdn.zaonce.net/elitedangerous/win/manifests/Single+Player+Combat+Training+%282014.11.26.51787%29.xml.gz'
 
