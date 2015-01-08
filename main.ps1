@@ -1,4 +1,7 @@
-﻿'Powershell version: ' + $PSVersionTable.PSVersion.Major
+﻿if ($PSVersionTable.PSVersion.Major -lt 3) {
+  Write-Host 'Windows 7 SP1 or higher is required' -ForegroundColor Red
+  exit
+}
 
 . .\ConvertFrom-Gzip.ps1
 
