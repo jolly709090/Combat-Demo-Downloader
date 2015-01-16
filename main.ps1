@@ -1,5 +1,5 @@
 ﻿if ($PSVersionTable.PSVersion.Major -lt 3) {
-  Write-Host 'Windows 7 SP1 or higher is required' -ForegroundColor Red
+  Write-Host "Powershell 3 or higher is required, please follow link [1] in the description" -ForegroundColor Red
   exit
 }
 
