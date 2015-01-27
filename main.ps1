@@ -3,6 +3,11 @@
   exit
 }
 
+if ($PSVersionTable.PSVersion.Major -eq 3) {
+  Write-Host "Powershell 3 is installed, if the script doesn't work upgrade to Powershell 4, please follow link [1] in the description" -ForegroundColor Red
+  . .\Get-FileHash.ps1
+}
+
 . .\ConvertFrom-Gzip.ps1
 
 $uri = 'http://cdn.zaonce.net/elitedangerous/win/manifests/Single+Player+Combat+Training+%282014.11.26.51787%29.xml.gz'
