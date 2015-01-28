@@ -13,7 +13,10 @@ if ($PSVersionTable.PSVersion.Major -eq 3) {
  Write-Host "Please copy and paste the full URI to the latest manifest.xml.gz" -ForegroundColor Red
 $uri = Read-Host "Manifest > "
 
-$dir = 'Elite_Dangerous\'
+ Write-Host "Please copy and paste the full path to the target folder." -ForegroundColor Red
+ Write-Host "If you're upgrading then it's the folder that has EliteDangerous32.exe in it" -ForegroundColor Red
+$dir = Read-Host "Folder > "
+$dir = $dir + '\'
 
 $ProgressPreference = "SilentlyContinue"
 
