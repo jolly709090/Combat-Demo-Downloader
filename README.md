@@ -1,4 +1,4 @@
-Powershell script, downloads Elite: Dangerous 'Combat Tutorial Demo' from the official CDN.
+Modified downloader, for downloading the main game.
 
 Usage:
 
