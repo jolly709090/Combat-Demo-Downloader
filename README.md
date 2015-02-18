@@ -1,6 +1,6 @@
 Downloads Elite: Dangerous 'Combat Tutorial Demo' from the official CDN.
 
-Get a hassle-free archive [here](https://cdn.rawgit.com/xaduha/Combat-Demo-Downloader/BinaryWrapper_0.2/BinaryWrapper/CombatDemoDownloader.zip)!
+Get a hassle-free archive [here](https://cdn.rawgit.com/xaduha/Combat-Demo-Downloader/BinaryWrapper_0.3/BinaryWrapper/CombatDemoDownloader.zip)!
 
 Or if you prefer a Powershell version of the downloader:
 
